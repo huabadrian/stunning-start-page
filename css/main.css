@@ -1,7 +1,41 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header {
+  background-color: #bd027d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+nav ul {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+nav a {
+  color: #bebebe;
+  padding: 1em;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+nav a li:first-child {
+  order: -1;
+}
+
+body {
+  margin: 1.5rem;
+}
+
+img {
+  width: 100%;
 }
